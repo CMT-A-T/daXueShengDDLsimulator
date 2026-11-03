@@ -19,12 +19,12 @@
   /* 标准模式做两处平衡校准；原版模式保留文档原值 */
   var MODES = {
     std: {
-      id: 'std', name: '标准模式', progress: 1.2, jCost: 0.8,
-      note: '主要行动的精力消耗按原值的80%计算，写作和数模的推进速度略快，比原版宽松一些。'
+      id: 'std', name: '简单模式', progress: 1.2, jCost: 0.8,
+      note: '即使有着堆积如山的事情要做，你依然怀着热情、保持较高的效率面对这几天。'
     },
     raw: {
-      id: 'raw', name: '原版数值', progress: 1.0, jCost: 1.0,
-      note: '完全照文档系数，不做任何校准。'
+      id: 'raw', name: '标准模式', progress: 1.0, jCost: 1.0,
+      note: '“...我什么时候又有这些作业了？”'
     }
   };
 
